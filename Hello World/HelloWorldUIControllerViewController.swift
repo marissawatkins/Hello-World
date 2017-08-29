@@ -9,7 +9,6 @@
 import UIKit
 
 class HelloWorldUIControllerViewController: UIViewController {
-    
     @IBOutlet weak var messageLabel: UILabel!
     
     override func viewDidLoad() {
@@ -32,7 +31,6 @@ class HelloWorldUIControllerViewController: UIViewController {
     @IBAction func clearTapped(_ sender: Any) {
         messageLabel.text = ""
     }
-    
     
     /*
     // MARK: - Navigation
